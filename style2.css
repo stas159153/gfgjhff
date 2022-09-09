@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.rapper{
+    height: 125vh;
+    background-color:pink ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content:start;
+}
+.wrapper{
+width: 25%;
+padding: 6px;
+}
+.fhoto{
+    width: 100%;
+    display: block;
+    border-radius: 6px;
+}
+.item-span{
+    text-transform: uppercase;
+}
+.item-a{
+    color: rgb(255, 23, 255);
+    background-color: rgb(37, 37, 59);
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    
+}
+.item-a:hover{
+    background-color: rgb(167, 167, 167);
+    color: white;
+}
